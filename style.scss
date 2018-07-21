@@ -1,7 +1,8 @@
 body {
-  background-image: url("bg-image.jpg");
-  background-size: cover;
   .container {
-    height: 100vh !important;
+    ol.no-indent {
+      list-style-position: inside;
+      padding: 0;
+    }
   }
 }
