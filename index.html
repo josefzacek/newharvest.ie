@@ -4,43 +4,132 @@
     <!-- Required meta tags -->
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <meta name="author" content="Josef Zacek">
 
     <!-- Bootstrap CSS -->
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.0/css/bootstrap.min.css" integrity="sha384-9gVQ4dYFwwWSjIDZnLEWnxCjeSWFphJiwGPXr1jddIhOegiu1FwO5qRGvFXOdJZ4" crossorigin="anonymous">
+    <link rel="stylesheet" href="style.css">
 
-    <title>newharvest.ie</title>
+    <title>Newharvest.ie</title>
 
-    <style>
-      body {
-        background-image: url("bg-image.jpg");
-        background-size: cover;
-      }
-      .container {
-        height: 100vh !important;
-      }
-    </style>
   </head>
   <body>
     <div class="container">
-      <div class="h-100 row align-items-center text-center">
+      <nav class="navbar navbar-toggleable-md navbar-light bg-faded">
+        <a class="navbar-brand" href="https://www.newharvest.ie/">
+          <img src="images/newharvest-logo.svg" alt="Newharvest logo">
+        </a>
+      </nav>
+
+      <div class="row">
         <div class="col">
-
-          <h1 class="text-center text-white">
-            Newharvest.ie
-          </h1>
-
-          <h2 class="text-white">
-            Our new website is coming soon.
-          </h2>
-
-          <p>
-            <u>
-              <a href="mailto:info@newharvest.ie" class="text-white">info@newharvest.ie</a>
-            </u>
-          </p>
-
+          <img src="images/hapenny-bridge.jpg" class="img-fluid" alt="Ha'penny Bridge" />
         </div>
       </div>
+
+      <div class="row my-3">
+        <div class="col-md-8 offset-md-2">
+          <p class="lead text-center">
+            We are a friendly, Dublin city center based company which specializes in setting up SPV companies for investors, who wish to avail of buy-to-let mortgages in Ireland.
+          </p>
+        </div>
+      </div>
+
+      <div class="row">
+        <div class="col-lg-4">
+          <p class="mb-0"><b>What we do:</b></p>
+          <ol class="no-indent">
+            <li>Company formation</li>
+            <li>Secretarial services</li>
+            <li>Accounting services</li>
+            <li>Source, bid and assistance in conveyancing process</li>
+            <li>Renovation and fitting</li>
+            <li>Management of short term letting</li>
+            <li>Arranging long term letting services</li>
+            <li>Immigrant Investor Programme (IIP)</li>
+          </ol>
+
+          <p class="mb-0"><b>Address:</b></p>
+          <p>New Harvest Advisers<br>
+          The Capel Building<br>
+          Mary's Abbey<br>
+          Dublin 7<br>
+          Ireland</p>
+        </div>
+
+        <div class="col-lg-8">
+          <form action="https://getsimpleform.com/messages?form_api_token=8a1414a224e622757559d5f523ebf0e8" method="post">
+
+            <input type='hidden' name='redirect_to' value='https://www.newharvest.ie/thank-you' />
+
+            <div class="row">
+              <div class="col-md-6 mb-3">
+                <label for="first-name">First Name<sup>*</sup></label>
+                <input type="text" class="form-control" id="first-name" name="First Name" required>
+              </div>
+
+              <div class="col-md-6 mb-3">
+                <label for="last-name">Last Name<sup>*</sup></label>
+                <input type="text" class="form-control" id="last-name" name="Last Name" required>
+              </div>
+            </div>
+
+            <div class="form-group">
+              <label for="company-name">Company Name</label>
+              <input type="text" class="form-control" id="company-name" name="Company Name">
+            </div>
+
+            <div class="form-group">
+              <label for="email">Email<sup>*</sup></label>
+              <input type="email" class="form-control" id="email" name="Email" required>
+            </div>
+
+            <div class="form-group">
+              <label for="phone">Phone Number<sup>*</sup></label>
+              <input type="number" class="form-control" id="phone" name="Phone Number" required>
+            </div>
+
+            <div class="form-group">
+              <label for="street-address">Street Address<sup>*</sup></label>
+              <input type="text" class="form-control" id="street-address" name="Street Address" required>
+            </div>
+
+            <div class="row">
+              <div class="col-md-4">
+                <label for="city">City<sup>*</sup></label>
+                <input type="text" class="form-control" id="city" name="City" required>
+              </div>
+
+              <div class="col-md-4">
+                <label for="state-county">State/County</label>
+                <input type="text" class="form-control" id="state-county" name="State/County">
+              </div>
+
+              <div class="col-md-4">
+                <label for="country">Country<sup>*</sup></label>
+                <input type="text" class="form-control" id="country" name="Country" required>
+              </div>
+            </div>
+
+            <div class="form-group">
+              <label for="message">Message<sup>*</sup></label>
+              <textarea class="form-control" id="message" rows="5" name="Message" required></textarea>
+            </div>
+
+            <button type="submit" class="btn btn-outline-secondary">Submit</button>
+          </form>
+        </div>
+      </div>
+
+      <div class="row mt-2">
+        <div class="col">
+          <hr>
+          <p class="text-center">
+            Dublin, 2018
+          </p>
+        </div>
+      </div>
+
     </div>
 
     <!-- Optional JavaScript -->
